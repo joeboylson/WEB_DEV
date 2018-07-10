@@ -1,0 +1,18 @@
+/* 
+VIOLET ---------- #3f2860
+BLUE ------------ #9BC1C2
+OFF_WHITE ------- #f5f5f5
+*/
+
+body {
+    background-color: #f5f5f5;
+    color: #3f2860
+}
+
+header {
+    background-color: #9bc1c2
+}
+
+footer {
+    background-color: #9bc1c2
+}

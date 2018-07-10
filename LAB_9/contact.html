@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Path of Light Yoga Studio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./yoga.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Path of Light Yoga Studio</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="./classes.html">CLASSES</a>
+                </li>
+                <li>
+                    <a href="./schedule.html">SCHEDULE</a>
+                </li>
+                <li>
+                    <a href="./contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <h2>Contact Path of Light Yoga Studio</h2>
+
+            <p>Required information is marked with an asterisk (*).</p>
+
+            <form action="http://webdevbasics.net/scripts/yoga.php">
+
+                <label for="myName">Name:</label>
+                <input type="text" name="myName" id="myName" required>
+
+                <label for="myEmail">Email:</label>
+                <input type="email" name="myEmail" id="myEmail" required>
+
+                <label for="sourceInput">How did you head about us?</label>
+                <input list="sources" name="sources" id="sourceInput">
+                <datalist id="sources">
+                    <option value="Google"></option>
+                    <option value="Bing"></option>
+                    <option value="Facebook"></option>
+                    <option value="Friend"></option>
+                    <option value="Radio Ad"></option>
+                </datalist>
+
+                <label for="myComments">Comments:</label>
+                <textarea name="myComments" id="myComments" cols="20" rows="2"></textarea>
+
+                <button type="submit">Send Now</button>
+
+            </form>
+
+        </main>
+
+        <footer>
+            Copyright © 2018 Path of Light Yoga Studio
+            <br /> This page was created by Joe Boylson for IT2040-001 : SUMMER 2018 , Lab #9
+            <br />
+            <a href="mailto:boylsojh@mail.uc.edu">SEND ME AN EMAIL</a>
+        </footer>
+    </div>
+</body>
+
+
+</html>
